@@ -1,0 +1,75 @@
+.page-one {
+    background-color:#FFF29C;
+    height: 750px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.leftside-pageone {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.vector-section {
+    z-index: 1;
+    display: flex;
+}
+
+.vector {
+    height: 700px;
+    position: absolute;
+    top: -25px;
+    left: 30px;
+}
+
+.image-one {
+    position: absolute;
+    top: 110px;
+    left: 170px;
+}
+
+.rightside-pageone {
+    position: relative;
+    flex: 1;
+    display: flex;
+}
+
+.web-title {
+    font-family: titan one, arial;
+    font-size: 120px;
+    color: #724319;
+    position: absolute;
+    left: -60px;
+}
+
+.web-subtitle {
+    font-family: titan one, arial;
+    font-size: 40px;
+    color: rgba(114, 67, 25, 0.35);
+    position: absolute;
+    top: 280px;
+    left: 30px;
+}
+
+.web-description {
+    font-family: saira condensed, arial;
+    font-size: 20px;
+    color: #909090;
+    font-weight: 300;
+    width: 500px;
+    line-height: normal;
+    position: absolute;
+    top: 400px;
+    left: 0;
+
+}
+
+.dogbone-section {
+    display: flex;
+}
+.dog-bone {
+    position: absolute;
+    right: 20px;   
+    top: 480px;
+}
